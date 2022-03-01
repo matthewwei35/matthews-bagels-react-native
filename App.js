@@ -1,23 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import BagelScreen from './BagelScreen';
+import SchmearScreen from './SchmearScreen';
+import DrinkScreen from './DrinkScreen';
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <StatusBar style="auto" />
-      </View>
-    </SafeAreaProvider>
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Bagels" component={BagelScreen} />
+        <Tab.Screen name="Schmears" component={SchmearScreen} />
+        <Tab.Screen name="Drinks" component={DrinkScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
