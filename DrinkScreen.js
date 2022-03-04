@@ -5,17 +5,17 @@ const DATA = [
   {
     id: '0',
     title: 'Cold Brew',
-    image: './images/drinks/cold-brew.jpeg'
+    image: require('./assets/drinks/cold-brew.jpeg')
   },
   {
     id: '1',
     title: 'Hot Chocolate',
-    image: './images/drinks/hot-chocolate.jpeg'
+    image: require('./assets/drinks/hot-chocolate.jpeg')
   },
   {
     id: '2',
     title: 'Strawberry Banana Smoothie',
-    image: './images/drinks/strawberry-banana-smoothie.jpeg'
+    image: require('./assets/drinks/strawberry-banana-smoothie.jpeg')
   },
 ];
 

@@ -5,22 +5,22 @@ const DATA = [
   {
     id: '0',
     title: 'Everything Bagel',
-    image: './images/bagels/everything-bagel.jpeg'
+    image: require('./assets/bagels/everything-bagel.jpeg')
   },
   {
     id: '1',
     title: 'Garlic Bagel',
-    image: './images/bagels/garlic-bagel.jpeg'
+    image: require('./assets/bagels/garlic-bagel.jpeg')
   },
   {
     id: '2',
     title: 'Plain Bagel',
-    image: './images/bagels/plain-bagel.jpeg'
+    image: require('./assets/bagels/plain-bagel.jpeg')
   },
   {
     id: '3',
     title: 'Sesame Bagel',
-    image: './images/bagels/sesame-bagel.jpeg'
+    image: require('./assets/bagels/sesame-bagel.jpeg')
   },
 ];
 

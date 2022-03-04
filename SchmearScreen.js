@@ -5,17 +5,17 @@ const DATA = [
   {
     id: '0',
     title: 'Garlic Herb Schmear',
-    image: './images/schmears/garlic-herb-schmear.jpeg'
+    image: require('./assets/schmears/garlic-herb-schmear.jpeg')
   },
   {
     id: '1',
     title: 'Plain Schmear',
-    image: './images/schmears/plain-schmear.jpeg'
+    image: require('./assets/schmears/plain-schmear.jpeg')
   },
   {
     id: '2',
     title: 'Salmon Schmear',
-    image: './images/schmears/salmon-schmear.jpeg'
+    image: require('./assets/schmears/salmon-schmear.jpeg')
   },
 ];
 

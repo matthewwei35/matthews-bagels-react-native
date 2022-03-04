@@ -2,7 +2,7 @@ import { Text, View, Image, StyleSheet } from 'react-native';
 
 const Item = ({ image, title }) => (
   <View>
-    <Image style={styles.image} source={require('./images/bagels/everything-bagel.jpeg')} />
+    <Image style={styles.image} source={image} />
     <Text>{title}</Text>
   </View>
 );
