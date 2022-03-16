@@ -1,11 +1,19 @@
-import { Text, View, Image, StyleSheet } from 'react-native';
+import { Text, View, Image, TouchableHighlight, StyleSheet } from 'react-native';
 
-const Item = ({ image, title }) => (
-  <View style={styles.container}>
-    <Image style={styles.image} source={image} />
-    <Text style={styles.title}>{title}</Text>
-  </View>
-);
+const Item = ({ image, title, data, navigation }) => {
+
+  return (
+    <TouchableHighlight
+      style={styles.item}
+      onPress={() => navigation.navigate('Details', data)}
+    >
+      <View style={styles.container}>
+        <Image style={styles.image} source={image} />
+        <Text style={styles.title}>{title}</Text>
+      </View>
+    </TouchableHighlight>
+  )
+};
 
 const styles = StyleSheet.create({
   container: {
