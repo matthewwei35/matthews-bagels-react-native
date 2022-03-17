@@ -8,10 +8,10 @@ function HomeScreen({ navigation, data }) {
       data={data}
       renderItem={({ item }) => {
         console.log(item)
-        return <Item title={`${item.title}`} image={item.image} data={item} navigation={navigation} />
+        return <Item name={`${item.Name}`} image={item.image} data={item} navigation={navigation} />
       }}
       keyExtractor={item => {
-        return item.breed
+        return item.id
       }}
     />
   )

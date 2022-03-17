@@ -1,6 +1,6 @@
 import { Text, View, Image, TouchableHighlight, StyleSheet } from 'react-native';
 
-const Item = ({ image, title, data, navigation }) => {
+const Item = ({ image, name, data, navigation }) => {
 
   return (
     <TouchableHighlight
@@ -9,7 +9,7 @@ const Item = ({ image, title, data, navigation }) => {
     >
       <View style={styles.container}>
         <Image style={styles.image} source={image} />
-        <Text style={styles.title}>{title}</Text>
+        <Text style={styles.title}>{name}</Text>
       </View>
     </TouchableHighlight>
   )

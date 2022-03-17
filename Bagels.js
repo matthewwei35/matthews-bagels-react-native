@@ -1,38 +1,38 @@
 module.exports = [
   {
     id: "0",
-    title: "Everything Bagel",
+    Name: "Everything Bagel",
     image: require('./assets/bagels/everything-bagel.jpeg'),
     Calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    "Total Fat": "2g",
+    "Total Carbohydrate": "56g",
+    Protein: "9g"
   },
   {
     id: "1",
-    title: "Garlic Bagel",
+    name: "Garlic Bagel",
     image: require('./assets/bagels/garlic-bagel.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "280kcal",
+    "Total Fat": "2g",
+    "Total Carbohydrate": "57g",
+    Protein: "10g"
   },
   {
     id: "2",
-    title: "Plain Bagel",
+    name: "Plain Bagel",
     image: require('./assets/bagels/plain-bagel.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "270kcal",
+    "Total Fat": "1g",
+    "Total Carbohydrate": "56g",
+    Protein: "9g"
   },
   {
     id: "3",
-    title: "Sesame Bagel",
+    name: "Sesame Bagel",
     image: require('./assets/bagels/sesame-bagel.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "290kcal",
+    "Total Fat": "3g",
+    "Total Carbohydrate": "56g",
+    Protein: "10g"
   }
 ];

@@ -1,29 +1,29 @@
 module.exports = [
   {
     id: '0',
-    title: 'Cold Brew',
+    Name: 'Cold Brew',
     image: require('./assets/drinks/cold-brew.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "15kcal",
+    "Total Fat": "0g",
+    "Total Carbohydrate": "2g",
+    Protein: "1g"
   },
   {
     id: '1',
-    title: 'Hot Chocolate',
+    Name: 'Hot Chocolate',
     image: require('./assets/drinks/hot-chocolate.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "310kcal",
+    "Total Fat": "15g",
+    "Total Carbohydrate": "34g",
+    Protein: "10g"
   },
   {
     id: '2',
-    title: 'Strawberry Banana Smoothie',
+    Name: 'Strawberry Banana Smoothie',
     image: require('./assets/drinks/strawberry-banana-smoothie.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "280kcal",
+    "Total Fat": "0g",
+    "Total Carbohydrate": "70g",
+    Protein: "1g"
   },
 ];

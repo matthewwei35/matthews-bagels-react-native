@@ -1,29 +1,29 @@
 module.exports = [
   {
     id: '0',
-    title: 'Garlic Herb Schmear',
+    Name: 'Garlic Herb Schmear',
     image: require('./assets/schmears/garlic-herb-schmear.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "120kcal",
+    "Total Fat": "7g",
+    "Total Carbohydrate": "3g",
+    Protein: "4g"
   },
   {
     id: '1',
-    title: 'Plain Schmear',
+    Name: 'Plain Schmear',
     image: require('./assets/schmears/plain-schmear.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "120kcal",
+    "Total Fat": "12g",
+    "Total Carbohydrate": "2g",
+    Protein: "N/A"
   },
   {
     id: '2',
-    title: 'Salmon Schmear',
+    Name: 'Salmon Schmear',
     image: require('./assets/schmears/salmon-schmear.jpeg'),
-    calories: "280kcal",
-    totalFat: "2g",
-    totalCarbohydrate: "56g",
-    protein: "9g"
+    Calories: "120kcal",
+    "Total Fat": "9g",
+    "Total Carbohydrate": "1g",
+    Protein: "2g"
   },
 ];
