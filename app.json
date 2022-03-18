@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "matthews-bagels",
+    "name": "Matthew's Bagels Menu",
     "slug": "matthews-bagels",
+    "description": "This is a menu app for Matthew's Bagels.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

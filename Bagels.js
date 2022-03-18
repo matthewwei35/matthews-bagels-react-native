@@ -10,7 +10,7 @@ module.exports = [
   },
   {
     id: "1",
-    name: "Garlic Bagel",
+    Name: "Garlic Bagel",
     image: require('./assets/bagels/garlic-bagel.jpeg'),
     Calories: "280kcal",
     "Total Fat": "2g",
@@ -19,7 +19,7 @@ module.exports = [
   },
   {
     id: "2",
-    name: "Plain Bagel",
+    Name: "Plain Bagel",
     image: require('./assets/bagels/plain-bagel.jpeg'),
     Calories: "270kcal",
     "Total Fat": "1g",
@@ -28,7 +28,7 @@ module.exports = [
   },
   {
     id: "3",
-    name: "Sesame Bagel",
+    Name: "Sesame Bagel",
     image: require('./assets/bagels/sesame-bagel.jpeg'),
     Calories: "290kcal",
     "Total Fat": "3g",
